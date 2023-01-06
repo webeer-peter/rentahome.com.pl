@@ -8,7 +8,9 @@ $(window).on("load", function() {
     $(".rtl-select").on("click", function() {
         window.location.href="17_Features_Example_Alt_Titlebar.rtl.html"
     });
-    $(".eng-select").on("click", function() {
+    $("." +
+        "" +
+        "eng-select").on("click", function() {
         window.location.href="17_Features_Example_Alt_Titlebar.html"
     });
 
